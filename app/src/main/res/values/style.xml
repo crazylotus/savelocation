@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme.Launcher" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@drawable/splashscreen</item>
+    </style>
+
+    <style name="customDialog" parent="Theme.MaterialComponents.Light.Dialog.Alert">
+        <item name="background">@drawable/bg_curved_window</item>
+        <item name="android:windowBackground">@android:color/background_light</item>
+        <item name="android:layout_margin">5dp</item>
+    </style>
+</resources>

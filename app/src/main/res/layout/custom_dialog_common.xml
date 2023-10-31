@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="400dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_margin="30dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="?android:windowBackground"
+    app:cardCornerRadius="15dp"
+    android:elevation="15dp"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp">
+        <FrameLayout
+            android:id="@+id/layout_map"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:visibility="visible">
+
+            <fragment
+                android:id="@+id/search_map"
+                android:name="com.google.android.gms.maps.SupportMapFragment"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:process=":processnameone"
+                tools:context=".MapsActivity_for_request_pages" />
+
+        </FrameLayout>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:id="@+id/go_location"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            app:srcCompat="@drawable/baseline_play_circle_24"
+            />
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/close"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            app:srcCompat="@drawable/baseline_close_24"
+            />
+    </RelativeLayout>
+
+
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "895932029614",
+    "project_id": "recordthejourney-22923",
+    "storage_bucket": "recordthejourney-22923.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:895932029614:android:4bda1880327e8ff480eb3f",
+        "android_client_info": {
+          "package_name": "com.loki.recordjourney"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "895932029614-0jv7cprsoqrsng9rpvn3sj5ud5f4ldbd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.loki.recordjourney",
+            "certificate_hash": "7786e28d9996655aeef0394c0649279564c2a52a"
+          }
+        },
+        {
+          "client_id": "895932029614-1qtnj1t6p7bi68qnq276unddqakd43gn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGKgNR7_eSQ0rZs6aC-lXQNO5NrHsDrKw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "895932029614-1qtnj1t6p7bi68qnq276unddqakd43gn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
